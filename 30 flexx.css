@@ -1,0 +1,28 @@
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    padding: 34px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    flex-wrap: wrap;
+    /*align-items:flex-start;*/
+    
+}
+.items{
+    background-color: lightcoral;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 24px;
+}
+.items:nth-child(odd){
+    align-self: flex-start;
+}
+.items:nth-child(even){
+    align-self: center;
+}
